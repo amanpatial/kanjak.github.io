@@ -52,11 +52,8 @@ const Services = () => {
             <span className="text-sm font-semibold text-orange-700">HOW WE CAN HELP AND SUPPORT</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Free Services by KANJAK
+            Support Programs for Girls
           </h2>
-          <div className="inline-block bg-gradient-to-r from-orange-500 to-amber-600 text-white px-8 py-4 rounded-full text-xl font-bold shadow-lg mb-6">
-            All Services Are 100% Free
-          </div>
           <p className="text-xl text-gray-600 leading-relaxed">
             Comprehensive support designed with respect for each girl's dignity and privacy.
           </p>
