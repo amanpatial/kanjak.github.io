@@ -49,7 +49,7 @@ const Services = () => {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-block bg-orange-100 px-4 py-2 rounded-full mb-4">
-            <span className="text-sm font-semibold text-orange-700">WHAT WE OFFER</span>
+            <span className="text-sm font-semibold text-orange-700">HOW WE CAN HELP AND SUPPORT</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Free Services by KANJAK
