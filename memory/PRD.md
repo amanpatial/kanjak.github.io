@@ -146,6 +146,12 @@ Build a compassionate, dignified, and culturally rooted website for KANJAK - a s
    - (For future use when real stories available)
 
 3. **Articles Backend**
+   - GET endpoint `/api/articles`
+   - POST endpoint for creating/updating articles
+   - Category filtering
+   - Full-text search
+
+4. **Blog/News Backend**
    - GET endpoint `/api/blog/posts`
    - POST endpoint for creating posts
    - Category filtering
