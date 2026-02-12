@@ -87,12 +87,13 @@ Build a compassionate, dignified, and culturally rooted website for KANJAK - a s
    - Future impact messaging
    - 3 impact areas (Communities, Independence, Leadership)
    - Powerful quote card
-   - Decorative background patterns
 
-8. **Success Stories Section**
-   - 3 testimonial cards with images
-   - Achievement badges
-   - Real stories from Priya, Anita, and Meera
+8. **Educational Articles Section** (Research-Based)
+   - 6 comprehensive articles on real challenges
+   - Topics: Safety (62K girls kidnapped annually), Financial Independence, Self-Defense, Education barriers, Digital Literacy, Mentorship
+   - Full article detail view with key insights
+   - Based on 2024 research and statistics from India
+   - Interactive "Read More" functionality
 
 9. **Blog/News Section**
     - 3 blog post cards
@@ -116,8 +117,9 @@ Build a compassionate, dignified, and culturally rooted website for KANJAK - a s
 
 #### Mock Data Structure:
 - All data stored in `/app/frontend/src/data/mock.js`
-- Includes: hero data, KANJAK values, challenges, eligibility criteria, services, success stories, blog posts, cultural images
-- **Note:** Impact metrics section removed as KANJAK is just beginning and hasn't supported children yet (maintaining authenticity)
+- Includes: hero data, KANJAK values, challenges, eligibility criteria, services, educational articles (6 research-based), blog posts, cultural images
+- **Note:** Impact metrics section removed as KANJAK is just beginning (maintaining authenticity)
+- **Note:** Success stories replaced with educational articles based on real 2024 statistics and research
 
 #### Design Implementation:
 - Warm orange/amber color scheme (#ea580c, #f97316)
@@ -141,8 +143,9 @@ Build a compassionate, dignified, and culturally rooted website for KANJAK - a s
    - GET endpoint `/api/stories`
    - POST endpoint for admin to add stories
    - Image upload handling
+   - (For future use when real stories available)
 
-3. **Blog/News Backend**
+3. **Articles Backend**
    - GET endpoint `/api/blog/posts`
    - POST endpoint for creating posts
    - Category filtering
