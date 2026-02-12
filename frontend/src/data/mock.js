@@ -178,33 +178,108 @@ export const impactMetrics = [
   }
 ];
 
-export const successStories = [
+export const articles = [
   {
     id: 1,
-    name: "Priya S.",
-    age: 16,
-    location: "Delhi",
-    story: "With KANJAK's mentoring, I gained the confidence to pursue science stream. Now I dream of becoming a doctor and serving my community.",
-    achievement: "Science Stream Achiever",
-    image: "https://images.unsplash.com/photo-1770235622226-4b5ad88137d8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHw0fHx5b3VuZyUyMHdvbWFuJTIwc3VjY2VzcyUyMGFjaGlldmVtZW50fGVufDB8fHx8MTc3MDg3OTc5MHww&ixlib=rb-4.1.0&q=85"
+    title: "The Silent Crisis: Understanding Safety Challenges Girls Face in India",
+    excerpt: "Every year, over 62,000 girls are reported kidnapped or abducted in India. Understanding these safety challenges is the first step toward creating a secure environment where girls can thrive.",
+    content: "In 2022, India reported alarming statistics: 62,099 girls were kidnapped or abducted, with 38,215 remaining unrecovered by year-end. Safety concerns extend beyond statistics—they affect daily life, limiting girls' freedom to attend school, pursue careers, and live without fear. From unsafe public transport to inadequate infrastructure in schools, these challenges demand urgent attention and collective action.",
+    author: "KANJAK Team",
+    date: "December 13, 2024",
+    category: "Safety & Awareness",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1601305808762-0f5e2676c24d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHw0fHxJbmRpYW4lMjBnaXJsJTIwZWR1Y2F0aW9ufGVufDB8fHx8MTc3MDg3OTczNHww&ixlib=rb-4.1.0&q=85",
+    keyPoints: [
+      "Over 62,000 girls kidnapped/abducted annually in India",
+      "Safety fears prevent girls from attending school, especially in rural areas",
+      "Lack of female teachers and secure facilities creates barriers",
+      "Community awareness and safe infrastructure are critical solutions"
+    ]
   },
   {
     id: 2,
-    name: "Anita K.",
-    age: 19,
-    location: "Lucknow",
-    story: "The digital literacy program opened new doors for me. I learned computer skills and now I'm pursuing a diploma in IT.",
-    achievement: "IT Professional",
-    image: "https://images.unsplash.com/photo-1770235622734-ae1b553d547b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwyfHx5b3VuZyUyMHdvbWFuJTIwc3VjY2VzcyUyMGFjaGlldmVtZW50fGVufDB8fHx8MTc3MDg3OTc5MHww&ixlib=rb-4.1.0&q=85"
+    title: "Why Financial Independence is Every Girl's Right",
+    excerpt: "With only 21% workforce participation among women, financial independence isn't just about earning—it's about dignity, choice, and breaking cycles of dependence.",
+    content: "Financial independence provides girls and women with control over their lives, enabling informed decision-making and protection against economic vulnerabilities. It builds confidence, creates safety nets, and fosters family stability. When girls are economically empowered, they invest in education, healthcare, and their children's futures, creating a ripple effect that transforms entire communities.",
+    author: "KANJAK Research Team",
+    date: "December 12, 2024",
+    category: "Economic Empowerment",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1565598571120-4081876df4f7",
+    keyPoints: [
+      "Women in India earn only ₹39.8 for every ₹100 men earn",
+      "Financial literacy enables better budgeting, saving, and investing",
+      "Economic independence reduces vulnerability to abuse and exploitation",
+      "Empowered women contribute to GDP growth and inclusive development"
+    ]
   },
   {
     id: 3,
-    name: "Meera R.",
-    age: 17,
-    location: "Jaipur",
-    story: "KANJAK mentors helped me prepare for college interviews. I received scholarship and now studying commerce with confidence.",
-    achievement: "Scholarship Winner",
-    image: "https://images.unsplash.com/photo-1770364022652-f3af53a889d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwzfHxjb25maWRlbnQlMjB3b21hbiUyMGxlYWRlcnNoaXB8ZW58MHx8fHwxNzcwODc5Nzk1fDA&ixlib=rb-4.1.0&q=85"
+    title: "Self-Defense: Building Confidence Beyond Physical Safety",
+    excerpt: "Self-defense training is more than learning to fight—it's about building confidence, awareness, and the fearless mindset needed to pursue dreams without limitations.",
+    content: "In a country where 93 rapes are reported daily, self-defense training becomes essential for girls' safety and empowerment. Programs across India teach not just physical techniques like escaping chokes and defending against attacks, but also situational awareness, stress management, and leadership skills. These skills transform fear into strength, enabling girls to navigate public spaces confidently and pursue education and careers without constraints.",
+    author: "KANJAK Empowerment Team",
+    date: "December 11, 2024",
+    category: "Self-Defense & Safety",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1758273240403-052b3c99f636",
+    keyPoints: [
+      "Nearly 1 in 3 women experience gender-based violence in India",
+      "Self-defense training builds physical skills and mental resilience",
+      "Participants show significant improvement in confidence and awareness",
+      "Free programs available through government, NGOs, and police initiatives"
+    ]
+  },
+  {
+    id: 4,
+    title: "Breaking Barriers: The Critical Need for Girls' Education",
+    excerpt: "7.67 lakh girls are missing from classrooms across India. Education is the foundation of empowerment, yet millions face barriers that prevent them from reaching their potential.",
+    content: "While girls' primary enrollment reaches 90%, it drops drastically to 48% at secondary and 35% at higher secondary levels. Poverty, early marriage, household duties, unsafe infrastructure, and lack of female teachers create formidable barriers. Yet education remains the most powerful tool for breaking cycles of poverty and dependence. Every educated girl becomes a catalyst for community transformation.",
+    author: "KANJAK Education Initiative",
+    date: "December 10, 2024",
+    category: "Education & Empowerment",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1573894998033-c0cef4ed722b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwzfHxJbmRpYW4lMjBnaXJsJTIwZWR1Y2F0aW9ufGVufDB8fHx8MTc3MDg3OTczNHww&ixlib=rb-4.1.0&q=85",
+    keyPoints: [
+      "Millions of girls drop out after primary education due to multiple barriers",
+      "Educated girls uplift families and communities for generations",
+      "Safe schools with female teachers significantly improve retention",
+      "Education enables informed choices about marriage, health, and careers"
+    ]
+  },
+  {
+    id: 5,
+    title: "Digital Literacy: The New Essential Skill for Girls",
+    excerpt: "In an increasingly digital world, technology access determines opportunities. The digital divide keeps girls from accessing online education, job opportunities, and essential information.",
+    content: "The digital divide disproportionately affects girls in rural and economically weak communities. Lack of access to computers, smartphones, and internet limits their ability to participate in online learning, apply for jobs, access government schemes, and connect with mentors. Digital literacy isn't optional—it's essential for surviving and thriving in the modern economy. Programs that provide digital skills training open doors that were previously closed.",
+    author: "KANJAK Digital Initiative",
+    date: "December 9, 2024",
+    category: "Digital Empowerment",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1523151401668-fff9e38a48e4",
+    keyPoints: [
+      "Digital skills are essential for modern employment opportunities",
+      "Online learning platforms expand educational access beyond geography",
+      "Digital literacy enables access to government schemes and banking",
+      "Technology skills boost confidence and career prospects"
+    ]
+  },
+  {
+    id: 6,
+    title: "The Power of Mentorship in Transforming Young Lives",
+    excerpt: "Every girl deserves a guide who believes in her potential. Mentorship provides the role models, guidance, and support that transform aspirations into achievements.",
+    content: "Many underprivileged girls lack access to role models who can show them what's possible. Mentorship fills this critical gap, providing guidance on education, career choices, interview skills, and life decisions. A mentor offers more than advice—they offer belief, encouragement, and practical support that helps girls navigate challenges and pursue their dreams with confidence. The impact of positive mentorship extends across generations.",
+    author: "KANJAK Mentorship Program",
+    date: "December 8, 2024",
+    category: "Mentorship & Guidance",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1758525861699-bde56139611f",
+    keyPoints: [
+      "Lack of role models limits girls' career aspirations and confidence",
+      "Mentorship provides practical guidance and emotional support",
+      "Professional mentors help with resume building and interview skills",
+      "One hour of mentoring can change a girl's entire trajectory"
+    ]
   }
 ];
 
