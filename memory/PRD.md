@@ -89,32 +89,25 @@ Build a compassionate, dignified, and culturally rooted website for KANJAK - a s
    - Powerful quote card
    - Decorative background patterns
 
-8. **Impact Metrics Section**
-   - Animated counter for 4 metrics
-   - Girls Supported: 250+
-   - Active Mentors: 45+
-   - Learning Hours: 5000+
-   - Success Stories: 89+
-
-9. **Success Stories Section**
+8. **Success Stories Section**
    - 3 testimonial cards with images
    - Achievement badges
    - Real stories from Priya, Anita, and Meera
 
-10. **Blog/News Section**
+9. **Blog/News Section**
     - 3 blog post cards
     - Categories, dates, authors
     - Featured images
     - "View All" CTA
 
-11. **Contact Form**
+10. **Contact Form**
     - Full name, email, phone fields
     - Relation selector (girl/parent/volunteer/partner/other)
     - Message textarea
     - Toast notification on submit
     - Information cards for different audiences
 
-12. **Footer**
+11. **Footer**
     - Brand information
     - Quick links and resources
     - Contact information
@@ -123,7 +116,8 @@ Build a compassionate, dignified, and culturally rooted website for KANJAK - a s
 
 #### Mock Data Structure:
 - All data stored in `/app/frontend/src/data/mock.js`
-- Includes: hero data, KANJAK values, challenges, eligibility criteria, services, impact metrics, success stories, blog posts, cultural images
+- Includes: hero data, KANJAK values, challenges, eligibility criteria, services, success stories, blog posts, cultural images
+- **Note:** Impact metrics section removed as KANJAK is just beginning and hasn't supported children yet (maintaining authenticity)
 
 #### Design Implementation:
 - Warm orange/amber color scheme (#ea580c, #f97316)
@@ -148,12 +142,7 @@ Build a compassionate, dignified, and culturally rooted website for KANJAK - a s
    - POST endpoint for admin to add stories
    - Image upload handling
 
-3. **Impact Metrics Backend**
-   - GET endpoint `/api/metrics`
-   - Real-time counter updates
-   - Admin dashboard for updating metrics
-
-4. **Blog/News Backend**
+3. **Blog/News Backend**
    - GET endpoint `/api/blog/posts`
    - POST endpoint for creating posts
    - Category filtering
@@ -212,17 +201,6 @@ Response: { "success": true, "message": "Thank you for reaching out!" }
 GET /api/stories
 Query Params: ?limit=3&offset=0
 Response: Array of story objects
-```
-
-### Impact Metrics API
-```
-GET /api/metrics
-Response: {
-  "girlsSupported": 250,
-  "activeMentors": 45,
-  "learningHours": 5000,
-  "successStories": 89
-}
 ```
 
 ### Blog Posts API
