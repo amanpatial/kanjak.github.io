@@ -17,7 +17,7 @@ const Footer = () => {
   ];
 
   const resources = [
-    { label: 'Success Stories', href: '#stories' },
+    { label: 'Articles', href: '#articles' },
     { label: 'Blog & News', href: '#blog' },
     { label: 'Contact Us', href: '#contact' },
     { label: 'Volunteer', href: '#contact' }

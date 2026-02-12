@@ -8,7 +8,7 @@ import Reality from "./components/Reality";
 import Eligibility from "./components/Eligibility";
 import Services from "./components/Services";
 import Vision from "./components/Vision";
-import Stories from "./components/Stories";
+import Articles from "./components/Articles";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -25,7 +25,7 @@ function App() {
         <Eligibility />
         <Services />
         <Vision />
-        <Stories />
+        <Articles />
         <Blog />
         <Contact />
       </main>
