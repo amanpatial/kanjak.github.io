@@ -1,25 +1,31 @@
 import React from 'react';
-import { TrendingUp, Lightbulb, Heart } from 'lucide-react';
+import { TrendingUp, Lightbulb, Heart, Users } from 'lucide-react';
 
 const Vision = () => {
   const impacts = [
     {
-      icon: TrendingUp,
-      title: 'Uplift Communities',
-      description: 'Educated girls uplift entire families and communities, creating a ripple effect of positive change.',
+      icon: Users,
+      title: 'Educated Girls Become Confident Women',
+      description: 'Education transforms girls into confident women who can make informed decisions about their lives, health, and futures.',
       color: 'from-orange-500 to-amber-500'
     },
     {
-      icon: Lightbulb,
-      title: 'Financial Independence',
-      description: 'Economic empowerment leads to आत्मनिर्भरता (self-reliance) and the freedom to make life choices.',
+      icon: TrendingUp,
+      title: 'Self-Reliant Girls Uplift Communities',
+      description: 'When girls achieve आत्मनिर्भरता (self-reliance), they uplift entire families and communities, creating a ripple effect of positive change.',
       color: 'from-amber-500 to-orange-600'
     },
     {
-      icon: Heart,
-      title: 'Lead with Confidence',
-      description: 'Confidence transforms girls into leaders who inspire and influence generations to come.',
+      icon: Lightbulb,
+      title: 'Knowledge Leads to Independence',
+      description: 'Knowledge provides the foundation for economic independence and the freedom to make life choices without constraints.',
       color: 'from-orange-600 to-red-500'
+    },
+    {
+      icon: Heart,
+      title: 'Confidence Creates Leaders',
+      description: 'Confident girls become leaders and change-makers who inspire and influence generations to come.',
+      color: 'from-red-500 to-orange-500'
     }
   ];
 
@@ -42,12 +48,12 @@ const Vision = () => {
             The Future of the Girl Child
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Our vision extends beyond today. We're creating a future where every girl has the opportunity to reach her full potential and contribute to society.
+            Our vision extends beyond today. We're creating lasting transformation that impacts generations.
           </p>
         </div>
 
         {/* Impact Cards */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-8 mb-16 max-w-6xl mx-auto">
           {impacts.map((impact, index) => {
             const Icon = impact.icon;
             return (
@@ -69,8 +75,8 @@ const Vision = () => {
           })}
         </div>
 
-        {/* Quote Section */}
-        <div className="max-w-5xl mx-auto">
+        {/* Main Quote Section */}
+        <div className="max-w-5xl mx-auto mb-12">
           <div className="relative bg-gradient-to-r from-orange-500 to-amber-600 rounded-3xl p-12 shadow-2xl overflow-hidden">
             {/* Decorative Elements */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-32 translate-x-32"></div>
@@ -81,11 +87,23 @@ const Vision = () => {
               <h3 className="text-3xl lg:text-4xl font-bold text-white mb-6 leading-tight">
                 When a Girl Rises, Society Rises with Her
               </h3>
-              <p className="text-xl text-white/90 leading-relaxed">
+              <p className="text-xl text-white/90 leading-relaxed mb-6">
                 One empowered girl influences generations. She becomes a role model, a leader, and a force for positive change in her family, community, and beyond.
               </p>
               <div className="text-6xl text-white/30 mt-4 rotate-180">"</div>
             </div>
+          </div>
+        </div>
+
+        {/* Powerful Final Statement */}
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-10 border-l-4 border-orange-500 text-center">
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              Empowering a girl is not helping one life — it is transforming the future.
+            </h3>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Every girl we support today becomes a beacon of hope, strength, and change for tomorrow. Her success multiplies across families, communities, and generations.
+            </p>
           </div>
         </div>
       </div>
