@@ -13,7 +13,7 @@ const Footer = () => {
     { label: 'About Us', href: '#about' },
     { label: 'Who We Support', href: '#eligibility' },
     { label: 'Our Services', href: '#services' },
-    { label: 'Impact', href: '#impact' }
+    { label: 'Our Vision', href: '#vision' }
   ];
 
   const resources = [

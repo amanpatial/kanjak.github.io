@@ -97,24 +97,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-
-            {/* Floating Stats */}
-            <div className="absolute -bottom-8 left-8 right-8 bg-white rounded-xl shadow-2xl p-6 backdrop-blur-sm">
-              <div className="grid grid-cols-3 gap-4 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-orange-600">250+</div>
-                  <div className="text-sm text-gray-600">Girls Supported</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-orange-600">45+</div>
-                  <div className="text-sm text-gray-600">Active Mentors</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-orange-600">5000+</div>
-                  <div className="text-sm text-gray-600">Learning Hours</div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

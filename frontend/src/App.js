@@ -8,7 +8,6 @@ import Reality from "./components/Reality";
 import Eligibility from "./components/Eligibility";
 import Services from "./components/Services";
 import Vision from "./components/Vision";
-import Impact from "./components/Impact";
 import Stories from "./components/Stories";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
@@ -26,7 +25,6 @@ function App() {
         <Eligibility />
         <Services />
         <Vision />
-        <Impact />
         <Stories />
         <Blog />
         <Contact />
