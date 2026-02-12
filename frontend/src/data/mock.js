@@ -86,67 +86,111 @@ export const challenges = [
 
 export const eligibilityCriteria = [
   {
-    title: "Economic Background",
-    description: "Girls from economically weak or underprivileged families",
+    title: "Extremely Poor Background",
+    description: "Girls from families living in extreme poverty with limited or no financial resources",
     icon: "IndianRupee"
   },
   {
-    title: "Family Support",
-    description: "Families willing to support the girl's education and growth",
+    title: "No Parents or Family Support",
+    description: "Orphaned girls or those with no family members to provide guidance and support",
     icon: "Users"
   },
   {
-    title: "Educational Status",
-    description: "School/college-going girls or those wanting to restart education",
-    icon: "GraduationCap"
+    title: "Lack of Access to Education",
+    description: "Girls who lack access to quality education, learning resources, or mentorship",
+    icon: "BookX"
   },
   {
-    title: "Commitment to Growth",
-    description: "Girls seeking career guidance, skill development, or confidence building",
-    icon: "TrendingUp"
-  },
-  {
-    title: "Intent & Consistency",
-    description: "Strong focus on intent, consistency, and willingness to learn",
+    title: "Willingness to Learn and Grow",
+    description: "Girls who are committed to learning, personal growth, and building a better future",
     icon: "Target"
+  },
+  {
+    title: "Educational Status",
+    description: "School-going, college-going, or forced to discontinue education due to circumstances",
+    icon: "GraduationCap"
   }
 ];
 
 export const services = [
+  // Education & Learning Support
   {
-    title: "Academic Mentoring",
-    description: "One-on-one guidance for studies and homework support",
-    icon: "BookOpen",
+    title: "Education Sponsorship",
+    description: "Free education sponsorship for poor and deserving girls",
+    icon: "GraduationCap",
+    category: "Education & Learning Support",
     image: "https://images.unsplash.com/photo-1758525861699-bde56139611f"
   },
   {
-    title: "Digital Literacy",
-    description: "Online learning sessions and computer skills training",
+    title: "Books & Study Material",
+    description: "Free books, study materials, and learning resources",
+    icon: "BookOpen",
+    category: "Education & Learning Support",
+    image: "https://images.unsplash.com/photo-1523151401668-fff9e38a48e4"
+  },
+  {
+    title: "Online Tuition Classes",
+    description: "Free online tuition classes on weekends for all subjects",
     icon: "Monitor",
+    category: "Education & Learning Support",
     image: "https://images.unsplash.com/photo-1565598571120-4081876df4f7"
   },
   {
+    title: "Academic Mentoring",
+    description: "One-on-one academic mentoring and personalized study guidance",
+    icon: "Users",
+    category: "Education & Learning Support",
+    image: "https://images.unsplash.com/photo-1758525861699-bde56139611f"
+  },
+  // Career & Personal Development
+  {
     title: "Career Guidance",
-    description: "Goal setting and career path exploration with professionals",
-    icon: "Briefcase",
+    description: "Career guidance and goal planning with experienced professionals",
+    icon: "Compass",
+    category: "Career & Personal Development",
     image: "https://images.unsplash.com/photo-1758273240403-052b3c99f636"
   },
   {
     title: "Interview Preparation",
-    description: "Resume building and interview skills development",
+    description: "Interview preparation, resume building, and job application support",
     icon: "FileText",
+    category: "Career & Personal Development",
     image: "https://images.unsplash.com/photo-1523151401668-fff9e38a48e4"
   },
   {
     title: "Communication Skills",
-    description: "Confidence-building and public speaking workshops",
+    description: "Communication skills training and confidence-building workshops",
     icon: "MessageSquare",
+    category: "Career & Personal Development",
+    image: "https://images.unsplash.com/photo-1565598571120-4081876df4f7"
+  },
+  {
+    title: "Professional Mentorship",
+    description: "Mentorship from working professionals across various fields",
+    icon: "Users",
+    category: "Career & Personal Development",
+    image: "https://images.unsplash.com/photo-1758273240403-052b3c99f636"
+  },
+  // Empowerment & Growth
+  {
+    title: "Life Skills Training",
+    description: "Life skills and leadership development programs",
+    icon: "Lightbulb",
+    category: "Empowerment & Growth",
     image: "https://images.unsplash.com/photo-1758525861699-bde56139611f"
   },
   {
-    title: "Personal Development",
-    description: "Leadership training and empowerment sessions",
-    icon: "Sparkles",
+    title: "Emotional Support",
+    description: "Emotional support, motivation, and psychological well-being",
+    icon: "Heart",
+    category: "Empowerment & Growth",
+    image: "https://images.unsplash.com/photo-1523151401668-fff9e38a48e4"
+  },
+  {
+    title: "Informed Decision Making",
+    description: "Safe guidance to help girls make informed life decisions",
+    icon: "Target",
+    category: "Empowerment & Growth",
     image: "https://images.unsplash.com/photo-1565598571120-4081876df4f7"
   }
 ];
